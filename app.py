@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the trained model and training feature columns
-model = joblib.load('model.pkl')
+model = st.load('model.pkl')
 
 st.title("Advertising")
 
