@@ -2,7 +2,6 @@
 
 import streamlit as st
 import pandas as pd
-import joblib
 
 # Load the trained model and training feature columns
 model = joblib.load('model.pkl')
